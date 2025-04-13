@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+google-generativeai
+chromadb
+PyMuPDF  # for PDF parsing
+pydantic
+pytest
+httpx
