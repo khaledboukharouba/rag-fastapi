@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+env/
+venv/
+
+# Environment variable files
+.env
+
+# VSCode config (optional)
+.vscode/
+
+# PyMuPDF cache
+*.xref
+*.tmp
+
+# ChromaDB persistent data
+chroma_db/
+
+# macOS system files
+.DS_Store
+
+# Docker
+*.log
+*.pid
+*.sock
+*.swp
+docker-compose.override.yml
+
+# Jupyter and notebooks (if any)
+.ipynb_checkpoints/
+
+# Test output / coverage (if testing is added later)
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# mypy, pylint, pyright, etc.
+.mypy_cache/
+.pyright/
+
+# Build files
+build/
+dist/
+*.egg-info/
